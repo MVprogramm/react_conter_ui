@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './counterUI.scss';
+import './counter.scss';
 
-class CounterUI extends React.Component {
+class Counter extends React.Component {
   constructor(props) {
     super(props);
 
@@ -59,5 +59,5 @@ class CounterUI extends React.Component {
   }
 };
 
-export default CounterUI;
+export default Counter;
 
