@@ -5,12 +5,7 @@ import './index.scss';
 import Counter from './Counter.jsx';
 
 const App = () => {
-  return (
-    <Counter 
-      start={0}
-      step={1} 
-    />
-  )
+  return <Counter />
 }
 
 export default App;

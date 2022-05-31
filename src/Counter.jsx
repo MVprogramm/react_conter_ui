@@ -7,27 +7,25 @@ class Counter extends React.Component {
     super(props);
 
     this.state = {
-      counter: props.start,
-      startCounter: props.start,
-      step: props.step,
+      counter: 0
     };
   }
 
   decrement() {
     this.setState({
-      counter: this.state.counter - this.state.step,
+      counter: this.state.counter - 1,
     });
   };
 
   increment = () => {
     this.setState({
-      counter: this.state.counter + this.state.step,
+      counter: this.state.counter + 1,
     });
   };
 
   reset() {
     this.setState({
-      counter: this.state.startCounter,
+      counter: 0,
     });
   };
 
